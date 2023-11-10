@@ -1,0 +1,69 @@
+.project-header {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    height: 96px;
+    padding: 0px 32px;
+    max-width: 1200px;
+    margin: 32px auto 0px auto;
+    font-weight: 500;
+}
+.hidevisit{
+    display: none;
+}
+.project-container {
+    max-width: 1200px;
+    padding: 0 32px;
+    margin: 0 auto;
+
+} 
+.title-container{
+    text-align: center;
+    font-family: 'system-ui', sans-serif;
+}
+.project-title{
+    font-size: 56px;
+    line-height: 1.1;
+    font-weight: 600;
+}
+.project-sub-title{
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 1.1;
+    margin-top: 8px;
+}
+.img-container{
+    display: flex;
+    justify-content: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.project-img{
+    width: 100%;
+    display: flex;
+justify-content: center;
+justify-self: center;
+align-items: center;
+}
+.project-text-container{
+    text-align: center;
+    margin-bottom: 150px;    
+}
+.text-title{
+    font-size: 28px;
+}
+.projcect-text{
+    font-size: 15px;
+    line-height: 1.4;
+    max-width: 100ch;
+    margin: 40px auto;
+    text-align: center;
+}
+.projcect-text p{
+    margin:20px 0px
+}
+@media (max-width: 999px) {
+    .img-container{
+        padding: 20px 0px;
+    }
+}

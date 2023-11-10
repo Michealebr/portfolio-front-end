@@ -1,0 +1,900 @@
+@media (max-width: 1199px) {
+  /* BODY */
+  .container {
+    max-width: 1000px;
+  }
+  .grid {
+    grid-template-columns: repeat(4, 216px);
+    grid-template-rows: repeat(4, 216px);
+  }
+  #grid--about {
+    grid-template-columns: repeat(4, 216px);
+    grid-template-rows: repeat(3, 216px);
+  }
+  #grid--projects {
+    grid-template-columns: repeat(4, 216px);
+    grid-template-rows: repeat(3, 216px);
+  }
+  #grid--media {
+    grid-template-columns: repeat(4, 216px);
+    grid-template-rows: repeat(2, 216px);
+  }
+  #grid--about {
+    grid-template-columns: repeat(4, 216px);
+    grid-template-rows: repeat(3, 216px);
+  }
+
+  .heading-secondary {
+    font-size: 23px;
+    margin-bottom: 16px;
+  }
+  .subheading {
+    font-size: 11.5px;
+  }
+  /* Header */
+  .header {
+    max-width: 1000px;
+  }
+  .nav-list {
+    font-size: 14.5px;
+  }
+  .nav-contact {
+    font-size: 14.5px;
+  }
+  /* intro-card */
+
+  .Mike {
+    font-size: 37px;
+  }
+  .intro-img {
+    height: 90px;
+  }
+  .intro-text {
+    font-size: 13.5px;
+  }
+  .arrow-expand {
+    margin-top: 10px;
+    height: 19px;
+    fill: black;
+  }
+  #card--intro--about .intro-img {
+    height: 120px;
+  }
+
+  #card--intro--about .intro-text {
+    margin-top: 17px;
+    line-height: 1.4;
+  }
+  #card--intro--about .Mike {
+    font-size: 50px;
+  }
+
+  /* crypto-card */
+
+  .card-crypto-title {
+    font-size: 19px;
+    margin-bottom: 8px;
+  }
+  .crypto-header {
+    padding: 10px 0px;
+  }
+  .crypto-logo {
+    height: 27px;
+    width: 27px;
+    margin-right: 9px;
+  }
+  .crypto-title {
+    font-size: 11px;
+  }
+  .tickername {
+    font-size: 10px;
+  }
+  .price {
+    font-size: 10px;
+  }
+  .coin-price-24-performance {
+    font-size: 9px;
+    font-weight: bold;
+  }
+
+  /* learning path */
+
+  .content-container {
+    padding: 10px 0;
+  }
+  .content-container:first-of-type {
+    padding: 0 0 10px 0;
+  }
+  .content-container:last-of-type {
+    padding: 10px 0 0 0;
+  }
+  .content-header {
+    margin-bottom: 10px;
+  }
+  .learning-course {
+    font-size: 13.5px;
+  }
+  .content-progress {
+    font-size: 11.5px;
+  }
+  /* project  */
+  .logo-vector {
+    height: 25px;
+    width: 25px;
+  }
+  .project-preview-container {
+    height: 200px;
+    width: 152px;
+  }
+  .project-image {
+    height: 200px;
+    margin-left: -15px;
+    border-radius: 15px;
+}
+
+  /* spotify */
+
+  .card-spotify {
+    grid-template-columns: 152px 1fr;
+    column-gap: 56px;
+  }
+
+  #song-img {
+    height: 152px;
+    width: 152px;
+  }
+  .spotify-logo {
+    width: 42px;
+    height: 42px;
+  }
+  .current-status {
+    font-size: 15px;
+  }
+  .song-name {
+    font-size: 20px;
+  }
+  .artist-name {
+    font-size: 15px;
+  }
+  /* portfolio */
+  .built-with-container {
+    height: 65px;
+  }
+  .language-logo {
+    height: 20px;
+    width: 20px;
+  }
+  .btn-container {
+    margin-top: 18px;
+  }
+}
+
+@media (max-width: 999px) {
+  /* body */
+  .container {
+    max-width: 800px;
+  }
+  #grid--all {
+    grid-template-columns: repeat(3, 229px);
+    grid-template-rows: repeat(5, 229px);
+  }
+  #grid--about {
+    grid-template-columns: repeat(3, 229px);
+    grid-template-rows: repeat(4, 229px);
+  }
+  #grid--projects {
+    grid-template-columns: repeat(3, 229px);
+    grid-template-rows: repeat(2, 229px);
+  }
+  #grid--media {
+    grid-template-columns: repeat(3, 229px);
+    grid-template-rows: repeat(2, 229px);
+  }
+  .heading-secondary {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  .subheading {
+    font-size: 12px;
+  }
+
+  /* header */
+
+  .header {
+    max-width: 800px;
+  }
+  .intro-text {
+    font-size: 13.5px;
+  }
+  .Mike {
+    font-size: 39px;
+  }
+  .arrow-expand {
+    margin-top: 14px;
+    height: 20px;
+    fill: black;
+  }
+  #card--intro--about .intro-img {
+    height: 150px;
+  }
+
+  /* crypto-card */
+
+  .widget-title-crypto {
+    font-size: 22px;
+  }
+  .crypto-logo {
+    height: 28px;
+    width: 28px;
+  }
+  .crypto-title {
+    font-size: 12px;
+  }
+  .tickername {
+    font-size: 11px;
+  }
+  .price {
+    font-size: 11px;
+  }
+  .coin-price-24-performance {
+    font-size: 10px;
+  }
+
+  /* learning */
+
+  .content-container {
+    padding: 12px 0;
+  }
+  .content-container:first-of-type {
+    padding: 0 0 12px 0;
+  }
+  .content-header {
+    margin-bottom: 12px;
+  }
+  .learning-course {
+    font-size: 15px;
+  }
+  .logo-vector {
+    height: 24px;
+    width: 24px;
+  }
+
+  /* spotify */
+
+  .card-spotify {
+    grid-template-columns: 165px 1fr;
+    column-gap: 56px;
+  }
+
+  #song-img {
+    width: 165px;
+    height: 165px;
+  }
+  .spotify-logo {
+    width: 42px;
+    height: 42px;
+  }
+  .current-status {
+    font-size: 15px;
+  }
+  .song-name {
+    font-size: 22px;
+  }
+  .artist-name {
+    font-size: 15px;
+  }
+
+  /* PROJECTS */
+
+  .project-preview-container {
+    height: 218px;
+    width: 165px;
+  }
+  .project-image {
+    height: 215px;
+}
+
+  /* card resize */
+  #card--intro--all {
+    grid-column: 1/3;
+    grid-row: 1/2;
+  }
+  #card--map--all {
+    grid-column: 2/4;
+    grid-row: 2/3;
+  }
+  #card--crypto--all {
+    grid-column: 3/4;
+    grid-row: 1/2;
+  }
+  #card--learning--all {
+    grid-column: 1/2;
+    grid-row: 2/4;
+  }
+  #card--project1--all {
+    grid-column: 2/3;
+    grid-row: 4/6;
+  }
+  #card--project2--all {
+    grid-column: 3/4;
+    grid-row: 4/6;
+  }
+  #card--spotify--all {
+    grid-column: 2/4;
+    grid-row: 3/4;
+  }
+  #card--linked-in--all {
+    grid-column: 1/2;
+    grid-row: 4/5;
+  }
+  #card--github--all {
+    grid-column: 1/2;
+    grid-row: 5/6;
+  }
+
+  /* CARD--ABOUT */
+  #card--intro--about {
+    grid-column: 1/3;
+    grid-row: 1/3;
+  }
+  #card--map--about {
+    grid-column: 2/4;
+    grid-row: 3/4;
+  }
+  #card--crypto--about {
+    grid-column: 3/4;
+    grid-row: 1/2;
+  }
+  #card--spotify--about {
+    grid-column: 1/3;
+    grid-row: 4/5;
+  }
+  #card--linked-in--about {
+    grid-column: 3/4;
+    grid-row: 2/3;
+  }
+  #card--github--about {
+    grid-column: 1/2;
+    grid-row: 3/4;
+  }
+
+  /* CARD--PROJECTS */
+  #card--project1--projects {
+    grid-column: 1/2;
+    grid-row: 1/3;
+  }
+  #card--project2--projects {
+    grid-column: 2/3;
+    grid-row: 1/3;
+  }
+
+  /* CARD--MEDIA */
+  #card--linked-in--media {
+    grid-column: 1/3;
+    grid-row: 1/2;
+  }
+  #card--github--media {
+    grid-column: 3/4;
+    grid-row: 1/2;
+  }
+}
+
+@media (max-width: 799px) {
+  .container {
+    max-width: 546px;
+  }
+  #grid--all {
+    grid-template-columns: repeat(2, 229px);
+    grid-template-rows: repeat(8, 229px);
+  }
+  #grid--about {
+    grid-template-columns: repeat(2, 229px);
+    grid-template-rows: repeat(5, 229px);
+  }
+  #grid--projects {
+    grid-template-columns: repeat(2, 229px);
+    grid-template-rows: repeat(2, 229px);
+  }
+  #grid--media {
+    grid-template-columns: repeat(2, 229px);
+    grid-template-rows: repeat(2, 229px);
+  }
+
+  .header {
+    display: grid;
+    max-width: 458px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    height: auto;
+    gap: 26px;
+    padding: 0;
+    margin-bottom: 55px;
+  }
+  .toggle-container {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  .navbar {
+    grid-column: 1/3;
+    grid-row: 2/3;
+    justify-self: center;
+    position: relative;
+  }
+  .contact-button {
+    grid-column: 2/2;
+    grid-row: 1/2;
+    justify-self: end;
+  }
+
+  #card--intro--all {
+    grid-column: 1/3;
+    grid-row: 1/2;
+  }
+  #card--map--all {
+    grid-column: 1/3;
+    grid-row: 2/3;
+  }
+  #card--crypto--all {
+    grid-column: 2/3;
+    grid-row: 3/4;
+  }
+  #card--learning--all {
+    grid-column: 1/2;
+    grid-row: 3/5;
+  }
+  #card--project1--all {
+    grid-column: 1/2;
+    grid-row: 6/8;
+  }
+  #card--project2--all {
+    grid-column: 2/3;
+    grid-row: 6/8;
+  }
+  #card--spotify--all {
+    grid-column: 1/3;
+    grid-row: 5/6;
+  }
+  #card--linked-in--all {
+    grid-column: 2/3;
+    grid-row: 4/5;
+  }
+  #card--github--all {
+    grid-column: 1/3;
+    grid-row: 8/9;
+  }
+
+  /* CARD--ABOUT */
+  #card--intro--about {
+    grid-column: 1/3;
+    grid-row: 1/3;
+  }
+  #card--map--about {
+    grid-column: 1/2;
+    grid-row: 4/5;
+  }
+  #card--crypto--about {
+    grid-column: 1/2;
+    grid-row: 3/4;
+  }
+  #card--spotify--about {
+    grid-column: 1/3;
+    grid-row: 5/6;
+  }
+  #card--linked-in--about {
+    grid-column: 2/3;
+    grid-row: 3/4;
+  }
+  #card--github--about {
+    grid-column: 2/3;
+    grid-row: 4/5;
+  }
+
+  /* CARD--MEDIA */
+  #card--linked-in--media {
+    grid-column: 1/3;
+    grid-row: 1/2;
+  }
+  #card--github--media {
+    grid-column: 1/3;
+    grid-row: 2/3;
+  }
+}
+
+@media (max-width: 545px) {
+  /* BODY */
+  body {
+    --mobile-device: 1;
+  }
+
+  .container {
+    max-width: 424px;
+  }
+  #grid--all {
+    grid-template-columns: repeat(2, 168px);
+    grid-template-rows: repeat(16, 168px);
+  }
+  #grid--about {
+    grid-template-columns: repeat(2, 168px);
+    grid-template-rows: repeat(10, 168px);
+  }
+  #grid--projects {
+    grid-template-columns: repeat(2, 168px);
+    grid-template-rows: repeat(4, 168px);
+  }
+  #grid--media {
+    grid-template-columns: repeat(2, 168px);
+    grid-template-rows: repeat(3, 168px);
+  }
+  .heading-secondary {
+    font-size: 30px;
+  }
+  .header {
+    max-width: 360px;
+  }
+  .nav-list {
+    font-size: 15px;
+  }
+  .filter {
+    padding: 6.5px 13px;
+  }
+  .contact-button {
+    font-size: 15px;
+  }
+  /* intro card */
+  .memoji {
+    align-items: center;
+  }
+  .intro-img {
+    height: 140px;
+    z-index: 1;
+  }
+  .Mike {
+    font-size: 50px;
+  }
+  .intro-text {
+    font-size: 14px;
+    margin-top: 20px;
+  }
+  .arrow-expand {
+    margin-top: 30px;
+    height: 30px;
+    fill: black;
+  }
+  #card--intro--about .intro-img {
+    height: 90px;
+  }
+  #card--intro--about .Mike {
+    font-size: 40px;
+  }
+  #card--intro--about .memoji {
+    display: flex;
+    align-items: baseline;
+    justify-content: baseline;
+  }
+
+  /* crypto-card */
+
+  .card-crypto-title {
+    font-size: 35px;
+    margin-bottom: 34px;
+  }
+  .crypto-header {
+    padding: 18px 0px;
+  }
+  .crypto-logo {
+    height: 40px;
+    width: 40px;
+  }
+  .crypto-title {
+    font-size: 16px;
+  }
+  .tickername {
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: 5px;
+  }
+  .price {
+    font-size: 14px;
+  }
+  .coin-price-24-performance {
+    font-size: 12px;
+  }
+
+  /* spotify */
+
+  .card-spotify {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    column-gap: 0px;
+  }
+  .img-container {
+    grid-column: 1/3;
+    grid-row: 1/3;
+  }
+  #song-img {
+    width: 148px;
+    height: 148px;
+  }
+  .spotify-logo {
+    grid-column: 4/5;
+    grid-row: 1/2;
+    width: 64px;
+    height: 64px;
+    justify-self: flex-end;
+  }
+  .song-info {
+    grid-column: 1/5;
+    grid-row: 4/5;
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+  }
+  .current-status {
+    font-size: 17px;
+  }
+  .song-name {
+    font-size: 26px;
+  }
+  .artist-name {
+    font-size: 17px;
+  }
+
+  /* learning path */
+
+  .learningpath-title {
+    font-size: 35px;
+    margin-bottom: 60px;
+  }
+  .content-container {
+    padding: 20px 0;
+  }
+
+  /* portfolio card */
+  .project-card {
+    align-items: center;
+  }
+  .card-mobile {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, auto);
+  }
+  .project-name-container {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  .proj-title {
+    margin-bottom: 0px;
+  }
+  .built-with-container {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    justify-self: flex-end;
+    height: none;
+  }
+
+  .project-logo {
+    max-width: 140px;
+    flex-wrap: wrap;
+    justify-content: end;
+  }
+  .project--helper {
+    text-align: end;
+  }
+  .project-preview-container {
+    grid-column: 1/3;
+    grid-row: 2/3;
+    height: 150px;
+    width: 100%;
+  }
+  .btn-container {
+    margin-top: 0px;
+  }
+  .wrap-icons {
+    width: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+  .project-btn {
+    width: 100px;
+  }
+  .arrow-text {
+    transform: none;
+    opacity: 1;
+    display: inline-block;
+    top: 1px;
+    transition: none;
+  }
+  .project-card:hover .arrow-text {
+    display: inline-block;
+    opacity: 1;
+    animation: none;
+  }
+  .project-image {
+    height: 150px;
+    margin: 0px 80px;
+}
+
+  /* social cards */
+
+  .card-linked-in:hover .social-media-logo {
+    transform: none;
+    transition: none;
+  }
+
+  .card-github:hover .social-media-logo {
+    transform: none;
+    transition: none;
+  }
+  /* card format */
+
+  #card--intro--all {
+    grid-column: 1/3;
+    grid-row: 1/3;
+  }
+  #card--map--all {
+    grid-column: 1/3;
+    grid-row: 3/5;
+  }
+  #card--crypto--all {
+    grid-column: 1/3;
+    grid-row: 5/7;
+  }
+  #card--learning--all {
+    grid-column: 1/3;
+    grid-row: 9/12;
+  }
+  #card--project1--all {
+    grid-column: 1/3;
+    grid-row: 12/14;
+  }
+  #card--project2--all {
+    grid-column: 1/3;
+    grid-row: 14/16;
+  }
+  #card--spotify--all {
+    grid-column: 1/3;
+    grid-row: 7/9;
+  }
+  #card--linked-in--all {
+    grid-column: 1/2;
+    grid-row: 16/17;
+  }
+  #card--github--all {
+    grid-column: 2/3;
+    grid-row: 16/17;
+  }
+
+  /* CARD--ABOUT */
+  #card--intro--about {
+    grid-column: 1/3;
+    grid-row: 1/4;
+  }
+  #card--map--about {
+    grid-column: 1/3;
+    grid-row: 4/5;
+  }
+  #card--crypto--about {
+    grid-column: 1/3;
+    grid-row: 5/7;
+  }
+  #card--spotify--about {
+    grid-column: 1/3;
+    grid-row: 7/9;
+  }
+  #card--linked-in--about {
+    grid-column: 1/3;
+    grid-row: 9/10;
+  }
+  #card--github--about {
+    grid-column: 1/3;
+    grid-row: 10/11;
+  }
+
+  /* CARD--PROJECTS */
+  #card--project1--projects {
+    grid-column: 1/3;
+    grid-row: 1/3;
+  }
+  #card--project2--projects {
+    grid-column: 1/3;
+    grid-row: 3/5;
+  }
+
+  /* CARD--MEDIA */
+  #card--linked-in--media {
+    grid-column: 1/3;
+    grid-row: 1/2;
+  }
+  #card--github--media {
+    grid-column: 1/3;
+    grid-row: 2/3;
+  }
+}
+
+@media (max-width: 423px) {
+  /* body */
+
+  .container {
+    max-width: 410px;
+  }
+
+  #grid--all {
+    grid-template-columns: repeat(2, 161px);
+    grid-template-rows: repeat(16, 161px);
+  }
+  #grid--about {
+    grid-template-columns: repeat(2, 161px);
+    grid-template-rows: repeat(10, 161px);
+  }
+  #grid--projects {
+    grid-template-columns: repeat(2, 161px);
+    grid-template-rows: repeat(4, 161px);
+  }
+  #grid--media {
+    grid-template-columns: repeat(2, 161px);
+    grid-template-rows: repeat(3, 161px);
+  }
+  /* INTRODUCTION */
+  .text-intro {
+    line-height: 1.3;
+  }
+
+  /* learning path */
+
+  .learningpath-title {
+    margin-bottom: 40px;
+  }
+
+  /* project */
+
+  .project-preview-container {
+    height: 135px;
+  }
+
+  .wrap-icons {
+    width: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+  .project-image {
+    height: 132px;
+    margin: 0px 80px;
+}
+
+  /* spotify */
+  #spotify-artwork {
+    width: 141px;
+    height: 141px;
+  }
+}
+
+@media (max-width: 409px) {
+  /* body */
+  .container {
+    max-width: 390px;
+  }
+  #grid--all {
+    grid-template-columns: repeat(2, 151px);
+    grid-template-rows: repeat(16, 160px);
+  }
+  #grid--about {
+    grid-template-columns: repeat(2, 151px);
+    grid-template-rows: repeat(10, 160px);
+  }
+  #grid--projects {
+    grid-template-columns: repeat(2, 151px);
+    grid-template-rows: repeat(4, 160px);
+  }
+  #grid--media {
+    grid-template-columns: repeat(2, 151px);
+    grid-template-rows: repeat(3, 160px);
+  }
+
+  .card-intro,
+  .card-crypto,
+  .card-spotify {
+    padding: 24px;
+  }
+}

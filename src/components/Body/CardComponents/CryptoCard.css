@@ -1,0 +1,62 @@
+.card-crypto {
+  grid-column: 3/4;
+  grid-row: 1/1;
+}
+
+.card-crypto-title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  pointer-events: none;
+}
+.crypto-container {
+  border-bottom: 2px solid var(--filter-background-color);
+}
+.crypto-container:last-child {
+  border-bottom: none;
+}
+
+.crypto-header {
+  display: flex;
+  align-items: center;
+  padding: 12px 0px;
+}
+.crypto-logo {
+  height: 32px;
+  width: 32px;
+}
+.crypto-title {
+  width: 100%;
+  font-weight: bold;
+  font-size: 13px;
+  align-items: center;
+}
+.crypto-price {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+.price {
+  font-size: 12px;
+  font-weight: 500px;
+}
+.tickername {
+  font-weight: 500;
+  font-size: 12px;
+  color: var(--subheading-color);
+  margin-top: 4px;
+}
+.coin-price-24-performance {
+  font-size: 10.5px;
+  align-items: right;
+  justify-content: right;
+  font-weight: 500;
+  margin-top: 4px;
+}
+
+.positive-change {
+  color: #16c784;
+}
+.negative-change {
+  color: #ea3943;
+}
