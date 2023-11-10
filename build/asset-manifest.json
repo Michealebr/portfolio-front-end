@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.50ca75b5.css",
+    "main.js": "/static/js/main.e7e612aa.js",
+    "static/media/Shrikhand-Regular.ttf": "/static/media/Shrikhand-Regular.5ff5e889191a6c359fa4.ttf",
+    "index.html": "/index.html",
+    "main.50ca75b5.css.map": "/static/css/main.50ca75b5.css.map",
+    "main.e7e612aa.js.map": "/static/js/main.e7e612aa.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.50ca75b5.css",
+    "static/js/main.e7e612aa.js"
+  ]
+}
