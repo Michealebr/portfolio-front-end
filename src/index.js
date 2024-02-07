@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import App from './App';
 import PersonalSite from './pages/PersonalSite';
 import Aestige from './pages/Aestige.jsx';
+import Stacked from './pages/Stacked.jsx';
 import {
   createBrowserRouter,
   RouterProvider,
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
   {
     path: "/AboutAestige",
     element: <Aestige/>,
+  },
+  {
+    path: "/AboutStacked",
+    element: <Stacked/>,
   },
 ]);
 
@@ -49,6 +54,8 @@ const MainContent = () => {
           <Route path="/Home" element={<App />} />
           <Route path="/AboutPersonalSite" element={<PersonalSite />} />
           <Route path="/AboutAestige" element={<Aestige />} />
+          <Route path="/AboutStacked" element={<Stacked />} />
+
         </Routes>
       </AnimatePresence>
     </React.StrictMode>

@@ -46,6 +46,15 @@ const Body = ({ isDarkMode, activeFilter, setActiveFilter }) => {
         projectImage="\images\proj2.png"
         projectLink="/AboutAestige"
       />,
+      <PortfolioCard
+        key={`Stacked-card-${activeFilter}`}
+        id={`card--project3--${activeFilter}`}
+        projectName="Stacked"
+        // classNames="mikeskicks"
+        languages="typescript, react ,mysql,  node, express, electron, chartjs"
+        projectImage=""
+        projectLink="/AboutStacked"
+      />,
       <SpotifyCard id={`card--spotify--${activeFilter}`} key="spotify-card-all"/>,
       <SocialCard
         key={`linkedin-card-${activeFilter}`}
@@ -98,6 +107,15 @@ const Body = ({ isDarkMode, activeFilter, setActiveFilter }) => {
 
     projects: [
       <PortfolioCard
+      key={`Stacked-card-${activeFilter}`}
+      id={`card--project3--${activeFilter}`}
+      projectName="Stacked"
+      // classNames="mikeskicks"
+      languages="typescript, react ,mysql,  node, express, electron, chartjs"
+      projectImage=""
+      projectLink="/AboutStacked"
+    />,
+      <PortfolioCard
         key={`personal-site-card-${activeFilter}`}
         id={`card--project2--${activeFilter}`}
         projectName="Personal Site"
@@ -115,6 +133,15 @@ const Body = ({ isDarkMode, activeFilter, setActiveFilter }) => {
         projectImage="\images\proj2.png"
         projectLink="/AboutAestige"
       />,
+      // <PortfolioCard
+      //   key={`Stacked-card-${activeFilter}`}
+      //   id={`card--project3--${activeFilter}`}
+      //   projectName="Stacked"
+      //   classNames="mikeskicks"
+      //   languages="javascript, html, css, node, express"
+      //   projectImage=""
+      //   projectLink=""
+      // />,
     ],
     media: [
       <SocialCard

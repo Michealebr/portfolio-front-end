@@ -1,3 +1,10 @@
+@font-face {
+    font-family: "Silka Regular";
+    src: url("/public/fonts/silka-regular-webfont.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+  }
+
 .project-header {
     display: flex;
     align-items: center;
@@ -5,38 +12,78 @@
     height: 96px;
     padding: 0px 32px;
     max-width: 1200px;
-    margin: 32px auto 0px auto;
+    margin: 0px auto 0px auto;
     font-weight: 500;
 }
 .hidevisit{
     display: none;
 }
-.project-container {
+.page-body-ctn {
     max-width: 1200px;
     padding: 0 32px;
     margin: 0 auto;
-
 } 
+.text-ctn{
+    display: flex;
+    justify-content: space-between;
+}
+.about-ctn{
+    width: 500px;
+}
+/* .project-container{
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    grid-template-rows: repeat(2, 486px);
+    column-gap: 24px;
+} */
 .title-container{
-    text-align: center;
+    text-align: left;
     font-family: 'system-ui', sans-serif;
+width: 500px;
+
 }
 .project-title{
-    font-size: 56px;
-    line-height: 1.1;
-    font-weight: 600;
+    font-size: 36px;
+    line-height: 26px;
+    letter-spacing: .5px;
+
+    font-weight: bold;
+
 }
 .project-sub-title{
-    font-size: 28px;
+    /* font-size: 22px;
     font-weight: 400;
     line-height: 1.1;
-    margin-top: 8px;
+    margin-top: 8px; */
+    font-size: 26px;
+    font-family: "Silka Regular";
+    line-height: 40px;
+    letter-spacing: 0.25px;
+    font-weight: 400;
+    /* color: rgb(240, 242, 248); */
+    margin-bottom: 16px;
 }
+.proj-img-ctn{
+    display: grid;
+    grid-template-columns: repeat(4, 284px);
+    grid-template-rows: repeat(2, 304px);
+}
+
+
+
+
+
+
+
+
+
+
 .img-container{
     display: flex;
     justify-content: center;
-    max-width: 1000px;
+    /* max-width: 700px; */
     margin: 0 auto;
+display: none;
 }
 .project-img{
     width: 100%;
@@ -44,24 +91,46 @@
 justify-content: center;
 justify-self: center;
 align-items: center;
+display: none;
+
 }
 .project-text-container{
     text-align: center;
     margin-bottom: 150px;    
+    
 }
 .text-title{
     font-size: 28px;
 }
 .projcect-text{
     font-size: 15px;
-    line-height: 1.4;
+    letter-spacing: 0.5px;
     max-width: 100ch;
-    margin: 40px auto;
+    margin: 20px auto;
     text-align: center;
+    font-family: "Silka Regular";
+    line-height: 26px;
+    font-weight: 400;
 }
 .projcect-text p{
     margin:20px 0px
 }
+.about-text-container{
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+.struggle-text-container{
+    grid-column: 1/3;
+    grid-row: 2/3;
+}
+.about-text-container{
+    display: grid;
+    grid-template-columns: repeat(1, 400px);
+    grid-template-rows: repeat(2, auto);
+    gap: 20px;
+
+}
+
 @media (max-width: 999px) {
     .img-container{
         padding: 20px 0px;

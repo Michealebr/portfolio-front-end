@@ -4,44 +4,56 @@ import "./LearningPath.css";
 const learningPathData = [
   {
     id: [{ name: "Html" }, { name: "Css" }],
-    title: "Responsive Web Design with HTML and CCS",
+    title: "HTML & CCS",
     logo: [
       "https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg",
       "https://www.vectorlogo.zone/logos/w3_css/w3_css-icon.svg",
-    ],
-    courseLink:
-      "https://www.freecodecamp.org/learn/2022/responsive-web-design/",
-    contentProgress: "COMPLETED",
+    ]
+    // contentProgress: "COMPLETED",
   },
   {
     id: [{ name: "Javascript" }],
-    title: "Javascript Algorithms and Data Structures",
+    title: "Javascript",
     logo: [
       "https://upload.vectorlogo.zone/logos/javascript/images/239ec8a4-163e-4792-83b6-3f6d96911757.svg",
-    ],
-    courseLink:
-      "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/",
-    contentProgress: "COMPLETED",
+    ]
+    
+    // contentProgress: "COMPLETED",
   },
   {
     id: [{ name: "React" }],
     title: "React",
     logo: ["https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg"],
-    courseLink:
-      "https://www.freecodecamp.org/learn/front-end-development-libraries/",
-    contentProgress: "60% COMPLETE",
+   
+    // contentProgress: "60% COMPLETE",
   },
   {
-    id: [{ name: "Node.js" }, { name: "Express.js" }, { name: "MongoDB" }],
-    title: "Back End Development and APIs with Node.js and Express",
+    id: [{ name: "Node.js" }, { name: "Express.js" }],
+    title: "Node.js & Express",
     logo: [
       "https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg",
       "https://www.vectorlogo.zone/logos/expressjs/expressjs-icon.svg",
-      "https://www.vectorlogo.zone/logos/mongodb/mongodb-icon.svg",
-    ],
-    courseLink:
-      "https://www.freecodecamp.org/learn/back-end-development-and-apis/",
-    contentProgress: "10% COMPLETE",
+
+    ]
+    // contentProgress: "10% COMPLETE",
+  },
+  {
+    id: [{ name: "Typescript" }],
+    title: "Typescript",
+    logo: [
+      "https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-icon.svg",
+
+    ]
+    // contentProgress: "10% COMPLETE",
+  },
+  {
+    id: [{ name: "Mysql" }],
+    title: "Mysql",
+    logo: [
+      "https://www.vectorlogo.zone/logos/mysql/mysql-official.svg",
+
+    ]
+    // contentProgress: "10% COMPLETE",
   },
 ];
 
@@ -64,14 +76,18 @@ const LearningPath = ({id}) => {
                 ))}
               </div>
               <div className="content-title">
-                <a
+                <div className="learning-course">
+                {item.title}
+                </div>
+
+                {/* <a
                   className="learning-course"
                   href={item.courseLink}
                   target="_blank"
                   rel="noreferrer"
                 >
                   {item.title}
-                </a>
+                </a> */}
               </div>
             </div>
             <div className="content-progress">{item.contentProgress}</div>

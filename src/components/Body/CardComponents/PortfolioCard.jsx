@@ -10,7 +10,11 @@ const PortfolioCard = ({ projectName, languages, projectLink, id, projectImage})
     react: "https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg",
     node: "https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg",
     express: "https://www.vectorlogo.zone/logos/expressjs/expressjs-icon.svg",
-    figma: "https://www.vectorlogo.zone/logos/figma/figma-icon.svg"
+    figma: "https://www.vectorlogo.zone/logos/figma/figma-icon.svg",
+    mysql: "https://www.vectorlogo.zone/logos/mysql/mysql-official.svg",
+    typescript: "https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-icon.svg",
+    electron: "https://www.vectorlogo.zone/logos/electronjs/electronjs-icon.svg",
+    chartjs: "https://asset.brandfetch.io/idFdo8ulhr/idg4l58CuH.svg"
   };
 
   const languageList = languages.split(",").map((lang) => lang.trim());
