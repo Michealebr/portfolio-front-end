@@ -5,7 +5,11 @@ import AnimatePage from "./AnimatePage";
 const AboutProjectLayout = ({
   projectTitle,
   projectSubTitle,
-  projectImg,
+  projectImg1,
+  projectImg2,
+  projectImg3,
+  projectImg4,
+  projectImg5,
   aboutText,
   // whyText,
   // struggleText,
@@ -50,10 +54,16 @@ const AboutProjectLayout = ({
             <p className="projcect-text">{aboutText}</p>
          </div>
         </div>
+        <div className="proj-grid-ctn">
         <div className="proj-img-ctn">
-          
+        <img className="project-img img1" src={projectImg1} alt="project img"></img>
+        <img className="project-img img2" src={projectImg2} alt="project img"></img>
+        <img className="project-img img3" src={projectImg3} alt="project img"></img>
+        <img className="project-img img4" src={projectImg4} alt="project img"></img>
+        <img className="project-img img5" src={projectImg5} alt="project img"></img>
+
         </div>
-     
+        </div>
 
 
       {/* <div className="project-container">
