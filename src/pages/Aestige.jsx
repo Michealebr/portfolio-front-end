@@ -1,5 +1,6 @@
 import React from 'react';
 import AboutProjectLayout from "./AboutProjectLayout"
+import "./Aestige.css"
 const Aestige = () => {
   return (
     <div>
@@ -16,6 +17,14 @@ const Aestige = () => {
   futureText={"Utilizing a framework like React would have expedited development. For instance, in React,  I could have created a dedicated component, acting as a template for each procedure. By constructing it just once, I could have efficiently generated multiple procedures for my client in quicker succession, ensuring faster and more scalable development.\n\nIn retrospect, routing between pages would have been smoother with a framework like React, and I'd avoid solutions like 'swup' to streamline the website's functionality.\n\nThough my client preferred using setmore.com for booking and calendar management, in future projects, I'd aim to integrate payment processing through platforms like Stripe and expand the booking system for enhanced flexibility and customer interaction.\n\nAdditionally, incorporating a backend system would empower my client to manage and modify specific elements like prices and procedures through a simple dashboard, ensuring greater control and adaptability."}
   projecturl="https://aestige.com/" 
  ></AboutProjectLayout>
+ <div className="aestige-img-grid-ctn">
+<img className='aestige-img a-img1' src="\images\aestige\aestige.png" alt="" />
+<img className='aestige-img a-img2' src="\images\aestige\aestigeimg2.png" alt="" />
+<img className='aestige-img a-img3' src="\images\aestige\aestigeimg3.png" alt="" />
+<img className='aestige-img a-img4' src="\images\aestige\aestigeimg4.png" alt="" />
+<img className='aestige-img a-img5' src="\images\aestige\aestigeimg5.png" alt="" />
+
+ </div>
     </div>
   )
 }

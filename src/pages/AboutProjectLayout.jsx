@@ -54,7 +54,7 @@ const AboutProjectLayout = ({
             <p className="projcect-text">{aboutText}</p>
          </div>
         </div>
-        <div className="proj-grid-ctn">
+        {/* <div className="proj-grid-ctn">
         <div className="proj-img-ctn">
         <img className="project-img img1" src={projectImg1} alt="project img"></img>
         <img className="project-img img2" src={projectImg2} alt="project img"></img>
@@ -63,7 +63,7 @@ const AboutProjectLayout = ({
         <img className="project-img img5" src={projectImg5} alt="project img"></img>
 
         </div>
-        </div>
+        </div> */}
 
 
       {/* <div className="project-container">

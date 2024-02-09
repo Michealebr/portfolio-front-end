@@ -1,5 +1,6 @@
 import React from 'react'
 import AboutProjectLayout from "./AboutProjectLayout"
+import "./PersonalSite.css"
 
 const PersonalSite = () => {
   return (
@@ -15,6 +16,13 @@ const PersonalSite = () => {
   addClass="hidevisit"
      >
       </AboutProjectLayout>
+      <div className="personal-img-grid-ctn">
+      <img className='personal-img p-img1' src="\images\personal\personalimg1.png" alt="" />
+      <img className='personal-img p-img2' src="\images\personal\personalimg2.png" alt="" />
+      <img className='personal-img p-img3' src="\images\personal\personalimg3.png" alt="" />
+      <img className='personal-img p-img4' src="\images\personal\personalimg5.png" alt="" />
+
+      </div>
     </div>
   )
 }
