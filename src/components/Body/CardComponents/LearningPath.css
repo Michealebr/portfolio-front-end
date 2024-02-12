@@ -7,14 +7,15 @@
   padding: 32px;
 }
 .heading-secondary {
-  font-size: 30px;
+  font-size: 24px;
   font-weight: 700;
   margin-bottom: 24px;
   pointer-events: none;
+  
 }
 .content-container {
   border-bottom: 2px solid var(--filter-background-color);
-  padding: 18px 0;
+  padding: 25px 0;
 }
 .content-container:last-child {
   border-bottom: none;
@@ -24,7 +25,7 @@
   display: flex;
   text-align: left;
   align-items: center;
-  margin-bottom: 12px;
+  /* margin-bottom: 12px; */
 }
 .content-logo {
   display: flex;

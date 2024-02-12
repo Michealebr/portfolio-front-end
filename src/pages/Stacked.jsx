@@ -52,15 +52,10 @@ const Stacked = () => {
         <div>
             <AboutProjectLayout
                 projectTitle={"Stacked"}
-                projectSubTitle={"Inventory management for resellers"}
+                projectSubTitle={"A desktop application designed for efficient inventory management tailored to resellers."}
                 aboutText={"Tired of managing my sneaker reselling inventory with Excel and Notion, I found myself craving a more visually appealing and user-friendly solution. I'm someone who values user interface (UI) design, and staring at bland spreadsheets just wasn't cutting it for me. Plus, the tedious task of setting up formulas and organizing data in spreadsheets was a major pain point. So, I made a decision to develop a piece of software that not only looks great but also offers a much smoother workflow from stock management to the sold list. As someone who values data, having all the essential data points any reseller needs conveniently located on one page feels incredibly satisfying to use."}
                 addClass="hidevisit"
             />
-            {/* <div className="stacked-img-grid-ctn">
-                <img className='stacked-img1 stacked-img' src="\images\stacked\stackedimg1.png" alt="" />
-                <img className='stacked-img2 stacked-img' src="\images\stacked\stackedimg5.png" alt="" />
-                <img className='stacked-img3 stacked-img' src="\images\stacked\stackedimg4.png" alt="" />
-            </div> */}
             {/* Render the ImageSwiper component passing the images array as prop */}
             <div className="stacked-img-grid-ctn">
             <ImageSwiper images={images} />

@@ -64,3 +64,4 @@ const MainContent = () => {
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<RootComponent />);
+

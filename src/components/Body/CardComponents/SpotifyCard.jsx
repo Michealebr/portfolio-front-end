@@ -48,7 +48,7 @@ const SpotifyCard = ({id}) => {
                                   </div>
                         </div>
                             <div className="song-name">
-                                <p id="song-name">{songName}</p>
+                                <p id="song-name" className='song-name'>{songName}</p>
                             </div>
                             <div className="artist-name" >
                                 <p id="artist-name">{artistName}</p>

@@ -67,3 +67,15 @@
         max-width: 800px;
     }
 } */
+.slick-dots li.slick-active button:before {
+    opacity: 1 !important;
+    color: WHITE !important;
+}
+
+.slick-dots li button:before {
+    opacity: 1 !important;
+    color: grey !important;
+}
+.slick-dots{
+    bottom: -35px !important;
+}
