@@ -1,7 +1,7 @@
 import React from 'react'
 import AboutProjectLayout from "./AboutProjectLayout"
 import "./PersonalSite.css"
-
+import "./PagesMediaQuries.css"
 const PersonalSite = () => {
   return (
     <div>

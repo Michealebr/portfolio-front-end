@@ -1,16 +1,7 @@
-import { useEffect } from "react";
-
 import AboutProjectLayout from "./AboutProjectLayout"
 import "./Aestige.css"
-
+import "./PagesMediaQuries.css"
 const Aestige = () => {
-
-  // const className = "dark"
-  // useEffect(() => {
-  //   document.body.classList.toggle(className);
-  // }, [className]);
-
-
   return (
     <div>
 <AboutProjectLayout projectTitle={"Aestige"}

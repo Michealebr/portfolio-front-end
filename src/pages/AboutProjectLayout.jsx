@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import "./AboutProjectLayout.css";
 import AnimatePage from "./AnimatePage";
+import "./PagesMediaQuries.css"
 
 const AboutProjectLayout = ({
   projectTitle,

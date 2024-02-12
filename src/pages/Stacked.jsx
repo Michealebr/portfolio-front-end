@@ -4,7 +4,7 @@ import "./stacked.css";
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-
+import "./PagesMediaQuries.css"
 // Define the ImageSwiper component outside of the Stacked component
 const ImageSwiper = ({ images }) => {
     const settings = {
