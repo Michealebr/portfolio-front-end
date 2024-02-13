@@ -49,7 +49,7 @@ const Stacked = () => {
     ];
 
     return (
-        <div>
+        <div className='dark-project'>
             <AboutProjectLayout
                 projectTitle={"Stacked"}
                 projectSubTitle={"A desktop application designed for efficient inventory management tailored to resellers."}

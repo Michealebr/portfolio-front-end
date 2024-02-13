@@ -15,8 +15,21 @@ const AboutProjectLayout = ({
   }, []); // This ensures that it runs only when the component mounts
 
   const className = "dark"
-  useEffect(() => {
-    document.body.classList.toggle(className);
+  // useEffect(() => {
+  //   if(document.body.classList.contains(className)){
+  //     return 
+  //   }
+  //   else if(!document.body.classList.contains(className)){
+  //     document.body.classList.toggle(className);
+  //   }
+
+  //   // document.body.classList.toggle(className);
+  // }, [className]);
+    useEffect(() => {
+    if(!document.body.classList.contains(className)){
+      document.body.classList.toggle(className);
+    }
+    // document.body.classList.toggle(className);
   }, [className]);
 
     
