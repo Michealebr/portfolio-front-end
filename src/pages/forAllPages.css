@@ -1,0 +1,37 @@
+.proj-body{
+    position: absolute;
+    width: 100%;
+    top: 120px;
+    will-change: transform, opacity;
+    transition: all 0.3s ease-out 0s;
+}
+
+.go-back-btn:hover ~ .proj-body {
+    transform: translateY(20px); /* Apply transformation to .proj-body when button is hovered */
+  }
+
+  .go-back-btn{
+    position: absolute;
+    top: calc(37px);
+    left: calc(50% - 23px);
+    background-color: transparent;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    border: 2px solid rgb(48, 54, 61);;
+    transition: all 0.3s ease-out 0s;
+    cursor: pointer;
+}
+.go-back-btn:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-out 0s;
+    cursor: pointer;
+    background: rgb(33, 38, 45);
+
+}
+@media(max-width: 799px){
+    .go-back-btn{
+        left: 32px;
+
+    }
+}

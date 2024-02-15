@@ -22,7 +22,7 @@ const Body = ({ isDarkMode, activeFilter, setActiveFilter }) => {
         key={`intro-card-${activeFilter}`}
         id={`card--intro--${activeFilter}`}
         img="/images/memeoji-intro.png"
-        description_main=" I'm a 22-year-old self-taught front-end dev in London. I like to embrace challenges and continually seek opportunities to learn and grow."
+        description_main=" I'm a 22-year-old web developer in London. I like to embrace challenges and continually seek opportunities to learn and grow."
         activeFilter={activeFilter}
         setActiveFilter={setActiveFilter}
       />,

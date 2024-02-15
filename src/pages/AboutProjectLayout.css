@@ -20,22 +20,55 @@
 .project-header {
     display: flex;
     align-items: center;
-    justify-content: right;
+    justify-content: center;
     height: 96px;
     padding: 0px 32px;
     max-width: 1200px;
     margin: 0px auto 0px auto;
     font-weight: 500;
 }
+
+.page-btn-link{
+    border: 2px solid rgb(48, 54, 61);
+    width: fit-content;
+    display: flex;
+    cursor: pointer;
+    padding: 0px 15px;
+    height: 38px;
+    align-items: center;
+    border-radius: 100px;
+}
+.page-btn-link-text{
+    font-family: "Silka Medium" !important;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    text-decoration: none;
+    color: var(--text-color);
+}
+
 .hidevisit{
     display: none;
+}
+.x-ic-size{
+    height: 20px;
+    width: 20px;
+}
+.arrow-proj-size{
+    width: 20px;
+    height: 20px;
+    margin-left:8px;
+}
+.page-btn-link:hover{
+    transition: all 0.2s ease-out 0s;
+    cursor: pointer;
+    background: rgb(33, 38, 45);
 }
 .page-body-ctn {
     max-width: 1200px;
     padding: 0 60px;
     margin: 0 auto;
     margin-bottom: 50px;
-
 } 
 .text-ctn{
     display: flex;
