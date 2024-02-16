@@ -52,7 +52,7 @@ const Body = ({ isDarkMode, activeFilter, setActiveFilter }) => {
         projectName="Stacked"
         // classNames="mikeskicks"
         languages="typescript, react ,mysql,  node, express, electron, chartjs"
-        projectImage=""
+        projectImage="\images\stackedmain.png"
         projectLink="/AboutStacked"
       />,
       <SpotifyCard id={`card--spotify--${activeFilter}`} key="spotify-card-all"/>,
@@ -110,9 +110,8 @@ const Body = ({ isDarkMode, activeFilter, setActiveFilter }) => {
       key={`Stacked-card-${activeFilter}`}
       id={`card--project3--${activeFilter}`}
       projectName="Stacked"
-      // classNames="mikeskicks"
       languages="typescript, react ,mysql,  node, express, electron, chartjs"
-      projectImage=""
+      projectImage="\images\stackedmain.png"
       projectLink="/AboutStacked"
     />,
       <PortfolioCard
@@ -133,15 +132,6 @@ const Body = ({ isDarkMode, activeFilter, setActiveFilter }) => {
         projectImage="\images\proj2.png"
         projectLink="/AboutAestige"
       />,
-      // <PortfolioCard
-      //   key={`Stacked-card-${activeFilter}`}
-      //   id={`card--project3--${activeFilter}`}
-      //   projectName="Stacked"
-      //   classNames="mikeskicks"
-      //   languages="javascript, html, css, node, express"
-      //   projectImage=""
-      //   projectLink=""
-      // />,
     ],
     media: [
       <SocialCard

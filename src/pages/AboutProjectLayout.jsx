@@ -10,7 +10,8 @@ const AboutProjectLayout = ({
   aboutText,
   projecturl,
   addClass,
- extraText
+ extraText,
+ websiteName
 }) => {
 // takes user to pervious page 
   // const navigate = useNavigate(); // useNavigate hook for navigation
@@ -43,8 +44,8 @@ const AboutProjectLayout = ({
             <div className="proj-sub-title">
             <h2 className="project-sub-title">{projectSubTitle}</h2>
             <a className={`page-btn-link ${addClass}`} href={projecturl} target="_blank" rel="noreferrer" >
-          <span className="page-btn-link-text">Aestige.com 
-          <img className="arrow-proj-size" src="/images/arrow.svg"/>
+          <span className="page-btn-link-text">{websiteName} 
+          <img className="arrow-proj-size" src="/images/arrow.svg" alt="arrow"/>
           </span>
         </a>
             </div>

@@ -5,7 +5,6 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import "./PagesMediaQuries.css"
-import { useNavigate } from 'react-router-dom';
 import "./forAllPages.css"
 import useGoBack from './page-components/useGoBack';
 // Define the ImageSwiper component outside of the Stacked component
@@ -62,7 +61,7 @@ const Stacked = () => {
 
     return (
         <div>
-            <button className="go-back-btn" onClick={goBack}> <img className="x-ic-size" src="/images/x-icon.svg" alt="" /></button>
+            <button className="go-back-btn" onClick={goBack}> <img className="x-ic-size" src="/images/x-icon.svg" alt="cross" /></button>
             <div className="proj-body">
             <AboutProjectLayout
                 projectTitle={"Stacked"}
