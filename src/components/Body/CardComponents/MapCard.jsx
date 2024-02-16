@@ -3,8 +3,6 @@ import maplibregl from "maplibre-gl";
 import "./MapCard.css";
 
 
-// require('dotenv').config();
-
 const MapCard = ({ mode,id}) => {
   const mapContainer = useRef(null);
   const map = useRef(null);
@@ -12,7 +10,6 @@ const MapCard = ({ mode,id}) => {
   const lat = 51.449023519107726;
   // const API_KEY ="zpjtJyYSOlXkY9cWADR4"
   const API_KEY = process.env.REACT_APP_MAPLIBRE_API_KEY;
-  console.log(API_KEY)
 
   useEffect(() => {
     // Construct the dynamic map style URL based on the mode and API key
