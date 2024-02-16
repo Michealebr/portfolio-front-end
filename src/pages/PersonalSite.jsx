@@ -23,10 +23,10 @@ const PersonalSite = () => {
      >
       </AboutProjectLayout>
       <div className="personal-img-grid-ctn">
-      <img className='personal-img p-img1' src="\images\personal\personalimg1.jpeg" alt="project images" />
-      <img className='personal-img p-img2' src="\images\personal\personalimg2.jpeg" alt="project images" />
-      <img className='personal-img p-img3' src="\images\personal\personalimg3.jpeg" alt="project images" />
-      <img className='personal-img p-img4' src="\images\personal\personalimg5.jpeg" alt="project images" />
+      <img className='personal-img p-img1' src="\images\portfolio\personalimg1.jpeg" alt="project images" />
+      <img className='personal-img p-img2' src="\images\portfolio\personalimg2.jpeg" alt="project images" />
+      <img className='personal-img p-img3' src="\images\portfolio\personalimg3.jpeg" alt="project images" />
+      <img className='personal-img p-img4' src="\images\portfolio\personalimg5.jpeg" alt="project images" />
 
       </div>
       </div>
