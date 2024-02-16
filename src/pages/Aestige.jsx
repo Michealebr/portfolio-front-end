@@ -21,11 +21,11 @@ const Aestige = () => {
   websiteName="Aestige.com"
  ></AboutProjectLayout>
  <div className="aestige-img-grid-ctn">
-<img className='aestige-img a-img1' src="\images\aestige\aestige.png" alt="project images" />
+<img className='aestige-img a-img1' src="\images\aestige\aestige.jpeg" alt="project images" />
 <img className='aestige-img a-img2' src="\images\aestige\aestigeimg2.png" alt="project images" />
 <img className='aestige-img a-img3' src="\images\aestige\aestigeimg3.png" alt="project images" />
-<img className='aestige-img a-img4' src="\images\aestige\aestigeimg4.png" alt="project images" />
-<img className='aestige-img a-img5' src="\images\aestige\aestigeimg5.png" alt="project images" />
+<img className='aestige-img a-img4' src="\images\aestige\aestigeimg4.jpeg" alt="project images" />
+<img className='aestige-img a-img5' src="\images\aestige\aestigeimg5.jpeg" alt="project images" />
 
  </div>
  </div>
