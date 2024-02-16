@@ -8,7 +8,7 @@ const MapCard = ({ mode,id}) => {
   const map = useRef(null);
   const lng = -0.017263561462892357;
   const lat = 51.449023519107726;
-  // const API_KEY ="zpjtJyYSOlXkY9cWADR4"
+
   const API_KEY = process.env.REACT_APP_MAPLIBRE_API_KEY;
 
   useEffect(() => {
