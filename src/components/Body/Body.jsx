@@ -41,7 +41,6 @@ const Body = ({ isDarkMode, activeFilter, setActiveFilter }) => {
         key={`Aestige-card-${activeFilter}`}
         id={`card--project1--${activeFilter}`}
         projectName="Aestige"
-        // classNames="mikeskicks"
         languages="javascript, html, css, node, express, figma"
         projectImage="\images\proj2.png"
         projectLink="/AboutAestige"
@@ -50,7 +49,6 @@ const Body = ({ isDarkMode, activeFilter, setActiveFilter }) => {
         key={`Stacked-card-${activeFilter}`}
         id={`card--project3--${activeFilter}`}
         projectName="Stacked"
-        // classNames="mikeskicks"
         languages="typescript, react ,mysql,  node, express, electron, chartjs"
         projectImage="\images\stackedmain.png"
         projectLink="/AboutStacked"
