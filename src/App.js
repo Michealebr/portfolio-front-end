@@ -1,5 +1,5 @@
 
-import React, { useState, useEffect, Suspense } from 'react';
+import React, { useState, useEffect } from 'react';
 import Navbar from './components/Navbar/Navbar';
 import Body from './components/Body/Body';
 
@@ -35,7 +35,6 @@ function App() {
 
   return (
     <>
- 
         <Navbar toggleDarkMode={toggleDarkMode} isDarkMode={isDarkMode} setActiveFilter={setActiveFilter} activeFilter={activeFilter} />
         <Body toggleDarkMode={toggleDarkMode} isDarkMode={isDarkMode} activeFilter={activeFilter} setActiveFilter={setActiveFilter}/>
 
@@ -44,9 +43,3 @@ function App() {
 }
 
 export default App;
-// {isLoading ? <loadingScreen /> : (
-//   <>
-//     <Navbar toggleDarkMode={toggleDarkMode} isDarkMode={isDarkMode} setActiveFilter={setActiveFilter} activeFilter={activeFilter} />
-//     <Body toggleDarkMode={toggleDarkMode} isDarkMode={isDarkMode} activeFilter={activeFilter} setActiveFilter={setActiveFilter} />
-//   </>
-// )}
