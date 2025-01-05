@@ -22,7 +22,7 @@ const Body = ({ isDarkMode, activeFilter, setActiveFilter }) => {
         key={`intro-card-${activeFilter}`}
         id={`card--intro--${activeFilter}`}
         img="/images/memeoji-intro.png"
-        description_main=" I'm a 22-year-old web developer in London. I like to embrace challenges and continually seek opportunities to learn and grow."
+        description_main=" I am a passionate software developer with a strong focus on web and mobile development."
         activeFilter={activeFilter}
         setActiveFilter={setActiveFilter}
       />,
@@ -77,9 +77,9 @@ const Body = ({ isDarkMode, activeFilter, setActiveFilter }) => {
       key={`intro-card-${activeFilter}`}
         id={`card--intro--${activeFilter}`}
         img="/images/memeoji-intro.png"
-        description_main=" I'm a 22-year-old self-taught front-end dev in London. I like to embrace challenges and continually seek opportunities to learn and grow."
-        description_p1="i started learning how to code because i was surrounded by developers and owners in the NFT/Web3 space which really helped open my eyes to the endless posibilites that code has to offer"
-        description_p2=" Besides coding, I run my own sneaker reselling business, combining my love for fashion and entrepreneurship. Despite a busy schedule, I always make sure to prioritize my time at the gym to stay fit and focused."
+        description_main=" I am a passionate software developer with a strong focus on web and mobile development. I love creating innovative, user-friendly solutions and thrive on learning and adapting to new technologies. "
+        description_p1="My diverse portfolio showcases my ability to work both independently and collaboratively, consistently delivering high-quality results and exceeding expectations."
+        description_p2="With a commitment to growth and staying at the forefront of modern development, I am eager to take on new challenges and create impactful software."
         activeFilter={activeFilter}
         setActiveFilter={setActiveFilter}
       />,
